@@ -4,15 +4,16 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+This site & git repo contains information about various Apple II hardware that I've seen and
+decided to reverse engineer. For each piece of hardware I try to include as much information
+as possible so that the hardware could be cloned if necessary, so usually:
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+ * Pictures of the front & back of PCBs
+ * Reconstructed schematics created by tracing traces with a multimeter
+ * ROM dumps
+ * Any interesting manuals/datasheets
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+**Disclaimer:** I don't make any guarantees on accuracy of the information in this repository.
+I only do this for learning & fun.
 
-
-[jekyll-organization]: https://github.com/jekyll
+The full git repository can be found here: [markadev/AppleII-RevEng](https://github.com/markadev/AppleII-RevEng)
