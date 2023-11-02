@@ -17,7 +17,7 @@ url: "https://markadev.github.io"
 github_username: markadev
 
 # Build settings
-theme: minima
+theme: jekyll-theme-cayman
 plugins:
  - jekyll-seo-tag
 

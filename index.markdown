@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 ---
 This site & git repo contains information about various Apple II hardware that I've seen and
 decided to reverse engineer. For each piece of hardware I try to include as much information
