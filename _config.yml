@@ -1,7 +1,8 @@
 # Welcome to Jekyll!
 #
 # For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+# 'bundle exec jekyll serve --baseurl=""'. If you change this file, please restart
+# the server process.
 #
 # Site settings
 # These are used to personalize your new site. If you look in the HTML files,
@@ -14,7 +15,6 @@ description: >-
   Information about various Apple II hardware that I've seen and decided to reverse engineer.
 baseurl: "/AppleII-RevEng"
 url: "https://markadev.github.io"
-github_username: markadev
 
 # Build settings
 theme: jekyll-theme-cayman
