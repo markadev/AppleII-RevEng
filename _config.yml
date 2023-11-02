@@ -10,14 +10,14 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Reverse engineered Apple II hardware
+title: Apple II Hardware
 description: >-
-  Information about various Apple II hardware that I've seen and decided to reverse engineer.
+  Reverse engineered Apple II hardware
 baseurl: "/AppleII-RevEng"
 url: "https://markadev.github.io"
 
 # Build settings
-theme: jekyll-theme-cayman
+theme: jekyll-theme-leap-day
 plugins:
  - jekyll-seo-tag
 
