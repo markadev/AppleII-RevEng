@@ -4,7 +4,7 @@ title: Spies Laboratories NicePrint Card
 ---
 This is an Apple II printer card with several ROMs and an SRAM chip.
 
-[Schematic](artifacts/Schematic.pdf) | [KiCad Project & all artifacts]({{ site.github.repository_url }}/tree/main{{ page.dir }})
+[Schematic](Schematic.pdf) | [KiCad Project & all artifacts]({{ site.github.repository_url }}/tree/main{{ page.dir }})
 
 The card has 3 EPROMs (documented also in the manual). U4 is the traditional Apple expansion card ROM
 and U5 & U7 are optional font ROMs. Dumps of all three ROMs from the card I have are included. The
@@ -26,8 +26,8 @@ partially explained if the firmware was disassembled.
 
 ### Front Image
 
-![front](artifacts/front.jpg)
+![front](front.jpg)
 
 ### Back Image
 
-![back](artifacts/back.jpg)
+![back](back.jpg)
