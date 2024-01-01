@@ -4,7 +4,7 @@ title: Orange Micro Grappler+ (Rev C w/74LS374)
 ---
 This is a newer (newest?) revision of the Grappler+ parallel printer card for the Apple II.
 
-[Schematic](artifacts/Schematic.pdf) | [KiCad Project & all artifacts]({{ site.github.repository_url }}/tree/main{{ page.dir }})
+[Schematic](Schematic.pdf) | [KiCad Project & all artifacts]({{ site.github.repository_url }}/tree/main{{ page.dir }})
 
 The card I have has an official "Orange Micro" sticker on the EPROM and what looks like "3.3" hand-written on it however
 the EPROM contents contain the version string "3.2".
@@ -17,17 +17,17 @@ This revision fixes a couple issues with the previous revision:
 
 ### Front Image
 
-![front](artifacts/front.jpg)
+![front](front.jpg)
 
 ### Back Image
 
-![back](artifacts/back.jpg)
+![back](back.jpg)
 
 
 ### Updating revision A
 
 The changes from revision A are so minor that it's possible to rework a revision A model pretty easily; you can compare
-the schematics ([revA](../Orange-Micro-Grappler+/artifacts/Schematic.pdf) -> [revC](artifacts/Schematic.pdf)) to see the
+the schematics ([revA](../Orange-Micro-Grappler+/Schematic.pdf) -> [revC](Schematic.pdf)) to see the
 differences. I don't have the means to test this but roughly you would:
 
 1. Remove `Q1` and `R2` completely
