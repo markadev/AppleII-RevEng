@@ -1,6 +1,6 @@
 ---
 layout: subpage
-title: Microtik Dumpling-64 Printer Card
+title: Microtek Dumpling-64 Printer Card
 ---
 This is an Apple II printer card with a 4K expansion ROM and 64K of DRAM.
 
