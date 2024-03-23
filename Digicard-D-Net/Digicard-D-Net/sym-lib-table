@@ -1,5 +1,5 @@
 (sym_lib_table
   (version 7)
-  (lib (name "Memory")(type "KiCad")(uri "${KIPRJMOD}/libraries/Memory.kicad_sym")(options "")(descr ""))
   (lib (name "Transceiver")(type "KiCad")(uri "${KIPRJMOD}/libraries/Transceiver.kicad_sym")(options "")(descr ""))
+  (lib (name "Memory_Legacy")(type "KiCad")(uri "${KIPRJMOD}/../../KiCadLibraries/Memory_Legacy.kicad_sym")(options "")(descr ""))
 )
