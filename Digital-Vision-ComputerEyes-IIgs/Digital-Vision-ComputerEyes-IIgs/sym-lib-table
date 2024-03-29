@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "ADC")(type "KiCad")(uri "${KIPRJMOD}/libraries/ADC.kicad_sym")(options "")(descr ""))
+  (lib (name "Decoder")(type "KiCad")(uri "${KIPRJMOD}/libraries/Decoder.kicad_sym")(options "")(descr ""))
+)
