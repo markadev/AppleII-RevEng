@@ -4277,7 +4277,7 @@
 			)
 		)
 	)
-	(global_label "~{SYNC_TRIGGER}"
+	(global_label "~{BLANKING}"
 		(shape output)
 		(at 179.07 176.53 0)
 		(fields_autoplaced yes)
@@ -4289,7 +4289,7 @@
 		)
 		(uuid "2aa2b401-80b3-4c68-a43a-dbbd111b8efa")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 195.7228 176.53 0)
+			(at 191.2477 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
