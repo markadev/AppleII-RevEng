@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Memory_Legacy")(type "KiCad")(uri "${KIPRJMOD}/../../KiCadLibraries/Memory_Legacy.kicad_sym")(options "")(descr ""))
+  (lib (name "Video_Processor")(type "KiCad")(uri "${KIPRJMOD}/libraries/Video_Processor.kicad_sym")(options "")(descr ""))
+)
