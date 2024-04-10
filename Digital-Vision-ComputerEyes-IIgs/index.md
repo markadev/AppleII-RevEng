@@ -9,6 +9,10 @@ with an analog-to-digital converter that the CPU polls to read the video data. A
 at a time and takes 6 seconds to complete. Chapter 6 of the manual contains a high level description of how a capture
 is done.
 
+I did some work to disassemble the [original software](https://mirrors.apple2.org.za/Apple%20II%20Documentation%20Project/Interface%20Cards/Digitizers/Digital%20Vision%20Computer%20Eyes/Disk%20Images/Computer%20Eyes%20Disk.po) using
+[6502bench](https://6502bench.com/) to confirm my hunches on how a scan was performed (disassembly project included)
+and reimplemented a simple capture program so I can try this card out using my Apple II+.
+
 The card itself has none of the components labeled so I took the liberty of [labeling them](front_annotated.jpg)
 so the components can be linked to the schematic. There is an IC (labeled U7) that has the identifier sanded off
 on all pictures of this card that I could find however I found that this IC appears to be a `TDA3330` "TV Color
