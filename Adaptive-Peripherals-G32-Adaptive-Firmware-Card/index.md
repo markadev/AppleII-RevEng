@@ -25,7 +25,7 @@ The program running on the card could then take over the entire Apple II system 
 and eventually place a value on the data bus and resume the IIgs's CPU.
 
 The PCB doesn't label any of the components so I've [taken the liberty of assigning identifiers](front_annotated.jpg)
-so that the PCB can be cross-references with the schematic.
+so that the PCB can be cross-referenced with the schematic.
 
 [Schematic](Schematic.pdf) | [KiCad Project & all artifacts]({{ site.github.repository_url }}/tree/main{{ page.dir }}) | [Manual](https://archive.org/embed/AdaptiveFirmwareCardManualAppleIIGS)
 
