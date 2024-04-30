@@ -1,0 +1,34 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+table {
+  width: auto;
+}
+
+th {
+  border-bottom:1px solid #ffcc00;
+  border-right: 1px solid #e0c000;
+  background: #ffcc00;
+}
+
+td {
+  border-bottom:1px solid #ffcc00;
+  border-right: 1px solid #e5e5e5;
+
+  &:first-child {
+    border-left: 1px solid #e5e5e5;
+  }
+}
+
+code {
+  font-family: 'Lucida Sans', Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal;
+  font-size: 12px;
+  color: #101010;
+  text-shadow: none;
+  margin: 0;
+  padding: 0.0em 0.3em;
+  background: rgba(0, 0, 0, 0.08);
+  border-radius: 3px;
+}
