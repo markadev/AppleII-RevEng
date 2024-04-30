@@ -2,18 +2,18 @@
 
 **Truth table:**
 
-|| O1
--| --
- | 1
+| O1
+| --
+| 1
 
 
 ### Output O2 (unused)
 
 **Truth table:**
 
-|| O2
--| --
- | 1
+| O2
+| --
+| 1
 
 
 ### Output O3 (<span style="text-decoration:overline">NMI</span>)
@@ -561,9 +561,9 @@
 
 **Truth table:**
 
-|| O4
--| --
- | 1
+| O4
+| --
+| 1
 
 
 ### Output O5 (<span style="text-decoration:overline">ADDROUT_EN</span>)
