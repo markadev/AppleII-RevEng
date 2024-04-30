@@ -1,6 +1,7 @@
 ### Output O1 (<span style="text-decoration:overline">DATAIN_EN</span>)
 
-Truth table:
+**Truth table:**
+
  I1 | I2 | I3 | I4 | I7 | I8 | I9 | I10 | | O1
  -- | -- | -- | -- | -- | -- | -- | --- |-| --
   0 |  0 |  0 |  0 |  0 |  0 |  0 |   0 | | 1
@@ -285,7 +286,8 @@ Truth table:
 
 ### Output O2 (<span style="text-decoration:overline">DATAOUT_EN</span>)
 
-Truth table:
+**Truth table:**
+
  I1 | I2 | I3 | I4 | I9 | I10 | | O2
  -- | -- | -- | -- | -- | --- |-| --
   0 |  0 |  0 |  0 |  0 |   0 | | 1
@@ -369,7 +371,8 @@ Truth table:
 
 ### Output O3 (DMA_R<span style="text-decoration:overline">W</span>)
 
-Truth table:
+**Truth table:**
+
  I1 | I2 | I3 | I4 | I10 | | O3
  -- | -- | -- | -- | --- |-| --
   0 |  0 |  0 |  0 |   0 | | 1
@@ -417,7 +420,8 @@ Truth table:
 
 ### Output O4 (<span style="text-decoration:overline">CONFIG_RD</span>)
 
-Truth table:
+**Truth table:**
+
  I1 | I4 | I7 | I8 | | O4
  -- | -- | -- | -- |-| --
   0 |  0 |  0 |  0 | | 1
@@ -449,7 +453,8 @@ Truth table:
 
 ### Output O5 (CTRL_REG_WR)
 
-Truth table:
+**Truth table:**
+
  I1 | I4 | I5 | I7 | I8 | | O5
  -- | -- | -- | -- | -- |-| --
   0 |  0 |  0 |  0 |  0 | | 1
@@ -497,7 +502,8 @@ Truth table:
 
 ### Output O6 (<span style="text-decoration:overline">ROM1_SEL</span>)
 
-Truth table:
+**Truth table:**
+
  I1 | I4 | I7 | I8 | I9 | | O6
  -- | -- | -- | -- | -- |-| --
   0 |  0 |  0 |  0 |  0 | | 1
@@ -545,7 +551,8 @@ Truth table:
 
 ### Output O7 (<span style="text-decoration:overline">ROM2_SEL</span>)
 
-Truth table:
+**Truth table:**
+
  I1 | I4 | I7 | I8 | I9 | | O7
  -- | -- | -- | -- | -- |-| --
   0 |  0 |  0 |  0 |  0 | | 1
@@ -592,7 +599,8 @@ Truth table:
 
 ### Output O8 (<span style="text-decoration:overline">RELEASE_BUS</span>)
 
-Truth table:
+**Truth table:**
+
  I1 | I4 | I7 | I8 | I9 | | O8
  -- | -- | -- | -- | -- |-| --
   0 |  0 |  0 |  0 |  0 | | 0

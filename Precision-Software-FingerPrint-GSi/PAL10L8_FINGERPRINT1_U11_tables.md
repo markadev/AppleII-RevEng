@@ -1,6 +1,7 @@
 ### Output O1 (unused)
 
-Truth table:
+**Truth table:**
+
  | O1
 -| --
  | 1
@@ -8,7 +9,8 @@ Truth table:
 
 ### Output O2 (unused)
 
-Truth table:
+**Truth table:**
+
  | O2
 -| --
  | 1
@@ -16,7 +18,8 @@ Truth table:
 
 ### Output O3 (<span style="text-decoration:overline">NMI</span>)
 
-Truth table:
+**Truth table:**
+
  I1 | I2 | I3 | I4 | I5 | I6 | I7 | I8 | I9 | | O3
  -- | -- | -- | -- | -- | -- | -- | -- | -- |-| --
   0 |  0 |  0 |  0 |  0 |  0 |  0 |  0 |  0 | | 1
@@ -556,7 +559,8 @@ Truth table:
 
 ### Output O4 (unused)
 
-Truth table:
+**Truth table:**
+
  | O4
 -| --
  | 1
@@ -564,7 +568,8 @@ Truth table:
 
 ### Output O5 (<span style="text-decoration:overline">ADDROUT_EN</span>)
 
-Truth table:
+**Truth table:**
+
  I10 | | O5
  --- |-| --
    0 | | 0
@@ -573,7 +578,8 @@ Truth table:
 
 ### Output O6 (<span style="text-decoration:overline">REG_BANK_SEL</span>)
 
-Truth table:
+**Truth table:**
+
  I1 | I2 | I3 | I4 | I5 | I6 | I7 | I8 | I9 | | O6
  -- | -- | -- | -- | -- | -- | -- | -- | -- |-| --
   0 |  0 |  0 |  0 |  0 |  0 |  0 |  0 |  0 | | 1
@@ -1113,7 +1119,8 @@ Truth table:
 
 ### Output O7 (<span style="text-decoration:overline">SRAM_CE</span>)
 
-Truth table:
+**Truth table:**
+
  I2 | I3 | I4 | I5 | I6 | I7 | I8 | I9 | | O7
  -- | -- | -- | -- | -- | -- | -- | -- |-| --
   0 |  0 |  0 |  0 |  0 |  0 |  0 |  0 | | 0
@@ -1397,7 +1404,8 @@ Truth table:
 
 ### Output O8 (<span style="text-decoration:overline">ROM_OE</span>)
 
-Truth table:
+**Truth table:**
+
  I6 | I7 | I8 | I9 | | O8
  -- | -- | -- | -- |-| --
   0 |  0 |  0 |  0 | | 1
