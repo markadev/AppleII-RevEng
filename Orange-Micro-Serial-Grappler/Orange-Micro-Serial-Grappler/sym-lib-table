@@ -1,0 +1,7 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Transceiver_Legacy")(type "KiCad")(uri "${KIPRJMOD}/../../KiCadLibraries/Transceiver_Legacy.kicad_sym")(options "")(descr ""))
+  (lib (name "Interface_Legacy")(type "KiCad")(uri "${KIPRJMOD}/../../KiCadLibraries/Interface_Legacy.kicad_sym")(options "")(descr ""))
+  (lib (name "Logic_Legacy")(type "KiCad")(uri "${KIPRJMOD}/../../KiCadLibraries/Logic_Legacy.kicad_sym")(options "")(descr ""))
+  (lib (name "Memory_Legacy")(type "KiCad")(uri "${KIPRJMOD}/../../KiCadLibraries/Memory_Legacy.kicad_sym")(options "")(descr ""))
+)
