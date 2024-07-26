@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Interface_Legacy")(type "KiCad")(uri "${KIPRJMOD}/../../KiCadLibraries/Interface_Legacy.kicad_sym")(options "")(descr ""))
+  (lib (name "Sound")(type "KiCad")(uri "${KIPRJMOD}/libraries/Sound.kicad_sym")(options "")(descr ""))
+)
