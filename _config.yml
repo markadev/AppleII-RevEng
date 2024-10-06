@@ -15,6 +15,7 @@ description: >-
   Reverse engineered Apple II hardware
 baseurl: "/AppleII-RevEng"
 url: "https://markadev.github.io"
+google_analytics: "G-BRSW5HNBKV"
 
 # Build settings
 theme: jekyll-theme-leap-day

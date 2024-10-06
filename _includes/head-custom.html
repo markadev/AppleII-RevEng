@@ -1,4 +1,15 @@
 <!-- start custom head snippets -->
 <meta name="google-site-verification" content="d2WauRdMU47C80ekUA1Fhux334D7ujECOILAnnPGLDs" />
 <link rel="shortcut icon" type="image/x-icon" href="{{ '/img/favicon.ico' | relative_url }}">
+{%- if site.google_analytics %}
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', '{{ site.google_analytics }}');
+</script>
+{%- endif %}
 <!-- end custom head snippets -->
