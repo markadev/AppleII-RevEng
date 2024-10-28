@@ -1,0 +1,15 @@
+# Handle line endings automatically for files detected as text 
+# and leave all files detected as binary untouched.
+* text=auto
+
+*.bin binary
+
+*.do binary
+*.dsk binary
+*.po binary
+
+*.gif binary
+*.ico binary
+*.jpg binary
+*.pdf binary
+*.png binary
