@@ -21,6 +21,7 @@ google_analytics: "G-BRSW5HNBKV"
 theme: jekyll-theme-leap-day
 plugins:
  - jekyll-seo-tag
+ - jekyll-sitemap
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -41,3 +42,9 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+defaults:
+  - scope:
+      path: "**/*.pdf"
+    values:
+      sitemap: false
