@@ -12,10 +12,11 @@ Although I believe this card is primarily designed to work on the Apple IIgs (an
 found is for the IIgs), when DIP switch 2 is turned on it will pull down a IIgs-specific bus signal so
 that the card might also be able to work on an Apple II+ or IIe.
 
-The card connects to an external box which breaks the signals out onto a 36 pin centronics connector.
-I don't have the box so I can't determine the connections between the card and that connector. Based
-on the pinout of the centronics connector [shown in the manual](https://archive.org/details/AdaptiveFirmwareCardManualAppleIIGS/page/n635/mode/2up)
-I don't think the box itself has any significant circuitry in it.
+The card connects to an external breakout box which breaks the signals out onto a 36 pin centronics connector.
+The box doesn't contain any active circuitry and mainly just passes the signals straight through to the
+centronics connector. The two mono 3.5mm jacks use signals shared with the centronics connector and were
+used for simple/inexpensive input switch devices. The pinout of the centronics connector [shown in the manual](https://archive.org/details/AdaptiveFirmwareCardManualAppleIIGS/page/n635/mode/2up)
+shows in a little more detail the use of each connection.
 
 In order to transparently emulate the standard Apple II input devices, the card looks like it has the
 ability to trap read & write requests that are directed to I/O memory locations and take them over.
@@ -27,7 +28,7 @@ and eventually place a value on the data bus and resume the IIgs's CPU.
 The PCB doesn't label any of the components so I've [taken the liberty of assigning identifiers](front_annotated.jpg)
 so that the PCB can be cross-referenced with the schematic.
 
-[Schematic](Schematic.pdf) | [KiCad Project & all artifacts]({{ site.github.repository_url }}/tree/main{{ page.dir }}) | [Manual](https://archive.org/embed/AdaptiveFirmwareCardManualAppleIIGS)
+[Schematic](Schematic.pdf) | [Box Schematic](Box-Schematic.pdf) | [KiCad Project & all artifacts]({{ site.github.repository_url }}/tree/main{{ page.dir }}) | [Manual](https://archive.org/embed/AdaptiveFirmwareCardManualAppleIIGS)
 
 
 ### Front Image
@@ -37,3 +38,11 @@ so that the PCB can be cross-referenced with the schematic.
 ### Back Image
 
 ![back](back.jpg)
+
+### Box Front
+
+![box front](box_front.jpg)
+
+### Box Inside
+
+![box inside](box_inside.jpg)
