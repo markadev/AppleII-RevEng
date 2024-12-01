@@ -20,6 +20,9 @@ network printing feature.
 The card contains an 8K expansion ROM and an 8K SRAM which are accessed through the 2K memory window at
 `$C800`. One of the control lines out of the SCC is used to choose whether the ROM or SRAM should be active.
 
+Every D-Net card has a unique identifier, printed on the ROM, which is stored in the ROM as 4 bytes in
+little endian byte order at offsets `0xfb4` and `0x1fb4`.
+
 
 [Schematic](Schematic.pdf) | [Box Schematic](Box-Schematic.pdf) | [KiCad Project & all artifacts]({{ site.github.repository_url }}/tree/main{{ page.dir }})
 
