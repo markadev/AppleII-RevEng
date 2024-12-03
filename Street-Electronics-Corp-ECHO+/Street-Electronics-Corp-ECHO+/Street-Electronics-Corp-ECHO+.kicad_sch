@@ -6465,7 +6465,7 @@
 				)
 			)
 		)
-		(symbol "Sound:AY-3-8913"
+		(symbol "Sound_Legacy:AY-3-8913"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -6967,7 +6967,7 @@
 				)
 			)
 		)
-		(symbol "Sound:TMS5220"
+		(symbol "Sound_Legacy:TMS5220"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -14811,7 +14811,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Sound:AY-3-8913")
+		(lib_id "Sound_Legacy:AY-3-8913")
 		(at 381 52.07 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14821,7 +14821,7 @@
 		(fields_autoplaced yes)
 		(uuid "3d3c2b46-04dc-4a23-92b7-adf003c2fa74")
 		(property "Reference" "U4"
-			(at 383.1941 21.59 0)
+			(at 383.1941 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14830,7 +14830,7 @@
 			)
 		)
 		(property "Value" "AY-3-8913"
-			(at 383.1941 24.13 0)
+			(at 383.1941 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18008,7 +18008,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Sound:AY-3-8913")
+		(lib_id "Sound_Legacy:AY-3-8913")
 		(at 381 124.46 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -18018,7 +18018,7 @@
 		(fields_autoplaced yes)
 		(uuid "7153e646-f6d6-4d58-96e9-dd4757feca86")
 		(property "Reference" "U5"
-			(at 383.1941 93.98 0)
+			(at 383.1941 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18027,7 +18027,7 @@
 			)
 		)
 		(property "Value" "AY-3-8913"
-			(at 383.1941 96.52 0)
+			(at 383.1941 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21196,7 +21196,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Sound:TMS5220")
+		(lib_id "Sound_Legacy:TMS5220")
 		(at 325.12 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -21206,7 +21206,7 @@
 		(fields_autoplaced yes)
 		(uuid "cb9f975a-7cb0-43fd-8a3d-24aea856dfb6")
 		(property "Reference" "U7"
-			(at 327.3141 30.48 0)
+			(at 327.3141 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21215,7 +21215,7 @@
 			)
 		)
 		(property "Value" "TMS5220"
-			(at 327.3141 33.02 0)
+			(at 327.3141 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
