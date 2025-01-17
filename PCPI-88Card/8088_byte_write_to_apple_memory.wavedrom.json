@@ -1,0 +1,32 @@
+{
+  "signal" : [
+    {                                "period": 2, "node": "ABCD.......EFGH", "phase": -0.85 },
+    { "name": "8088 CLK <sup>1</sup>",            "period": 2, "wave": "p.............." },
+    { "name": "8088 ALE",                         "wave": "01.0.....................1.0.." },
+    { "name": "LAD[0..7]",                        "wave": "x.=.=...................x.=.z.", "data": ["A0..A7", "D0..D7", "A0..A7"] },
+    { "name": "LA[0..15]",                        "wave": "x..=.....................x.=..", "data": ["all 16 bits valid"] },
+    { "name": "<o>DRAM_SEL</o>",                  "wave": "0..1.......................0..", "node": "...a.......................Y." },
+    { "name": "U51 RDY2",                         "wave": "0...................10........", "node": "....................d", "phase": -0.1 },
+    { "name": "8088 READY",                       "wave": "1....0...............1.0.....1", "node": ".....b...............e.......Z", "phase": -0.1},
+    {},
+    { "name": "Φ1",                 "period": 10, "wave": "p.." },
+    { "name": "<o>DMA_CYCLE</o>",    "period": 5, "wave": "1.0.1.", "node": "..c", "phase": -0.2 },
+    { "name": "<o>DMA_DATA_OUT</o>", "period": 5, "wave": "1.0.1.", "phase": -0.2 },
+    [ "Apple Bus",
+      { "name": "R<o>W</o>",         "period": 5, "wave": "1.0.1.", "phase": -0.2 },
+      { "name": "D[0..7]",           "period": 5, "wave": "z.=.z.", "phase": -0.2 },
+      { "name": "A[0..15]",          "period": 5, "wave": "9.7.9.", "phase": -0.2, "data": ["all 1's", "valid address", "all 1's"] },
+    ]
+  ],
+  "edge": [
+    "A+B T1", "B+C T2", "C+D T3", "D+E Twait", "E+F T4",
+    "F+G T1", "G+H T2",
+    "a~>b", "a~>c", "c~->d", "d~>e", "e~>E", "Y~>Z"
+  ],
+  "head": {
+    "text": ["tspan", {"class": "h4"}, "8088 byte write to Apple II memory"],
+  },
+  "foot": {
+    "text": "<sup>1</sup>In reality the 8088 clock is not synchronized with Φ1 since they are derived from different crystals with not exactly divisible frequencies."
+  }
+}
