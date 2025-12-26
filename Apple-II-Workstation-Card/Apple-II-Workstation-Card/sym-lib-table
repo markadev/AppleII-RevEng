@@ -1,0 +1,8 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "CPU_MCU_Legacy")(type "KiCad")(uri "${KIPRJMOD}/../../KiCadLibraries/CPU_MCU_Legacy.kicad_sym")(options "")(descr ""))
+  (lib (name "Memory_Legacy")(type "KiCad")(uri "${KIPRJMOD}/../../KiCadLibraries/Memory_Legacy.kicad_sym")(options "")(descr ""))
+  (lib (name "Transceiver_Legacy")(type "KiCad")(uri "${KIPRJMOD}/../../KiCadLibraries/Transceiver_Legacy.kicad_sym")(options "")(descr ""))
+  (lib (name "Filter_Legacy")(type "KiCad")(uri "${KIPRJMOD}/../../KiCadLibraries/Filter_Legacy.kicad_sym")(options "")(descr ""))
+  (lib (name "VLSI")(type "KiCad")(uri "${KIPRJMOD}/libraries/VLSI.kicad_sym")(options "")(descr ""))
+)

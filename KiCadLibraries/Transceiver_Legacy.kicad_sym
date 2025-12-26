@@ -1,7 +1,7 @@
 (kicad_symbol_lib
-	(version 20231120)
+	(version 20241209)
 	(generator "kicad_symbol_editor")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(symbol "Am26LS30-MODE0"
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -106,31 +106,19 @@
 			)
 			(polyline
 				(pts
-					(xy 2.032 1.27) (xy 5.588 1.27)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 3.302 -1.27) (xy 5.588 -1.27)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
 					(xy -2.54 4.318) (xy -2.54 6.35) (xy -4.318 6.35)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.762 3.048) (xy -0.762 5.08) (xy 0 5.08)
 				)
 				(stroke
 					(width 0)
@@ -154,7 +142,7 @@
 			)
 			(polyline
 				(pts
-					(xy -0.762 3.048) (xy -0.762 5.08) (xy 0 5.08)
+					(xy 2.032 1.27) (xy 5.588 1.27)
 				)
 				(stroke
 					(width 0)
@@ -175,17 +163,47 @@
 					(type none)
 				)
 			)
-			(pin output line
-				(at 10.16 -5.08 180)
+			(polyline
+				(pts
+					(xy 3.302 -1.27) (xy 5.588 -1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin input line
+				(at -10.16 6.35 0)
 				(length 2.54)
-				(name "SLEW_B"
+				(name "~{EN}"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "13"
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -10.16 0 0)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -194,16 +212,16 @@
 				)
 			)
 			(pin output line
-				(at 10.16 -1.27 180)
+				(at 10.16 5.08 180)
 				(length 2.54)
-				(name "B"
+				(name "SLEW_A"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "14"
+				(number "16"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -230,16 +248,16 @@
 				)
 			)
 			(pin output line
-				(at 10.16 5.08 180)
+				(at 10.16 -1.27 180)
 				(length 2.54)
-				(name "SLEW_A"
+				(name "B"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "16"
+				(number "14"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -247,35 +265,17 @@
 					)
 				)
 			)
-			(pin input line
-				(at -10.16 0 0)
+			(pin output line
+				(at 10.16 -5.08 180)
 				(length 2.54)
-				(name ""
+				(name "SLEW_B"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -10.16 6.35 0)
-				(length 2.54)
-				(name "~{EN}"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "3"
+				(number "13"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -324,31 +324,19 @@
 			)
 			(polyline
 				(pts
-					(xy 2.032 1.27) (xy 5.588 1.27)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 3.302 -1.27) (xy 5.588 -1.27)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
 					(xy -2.54 4.318) (xy -2.54 6.35) (xy -4.318 6.35)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.762 3.048) (xy -0.762 5.08) (xy 0 5.08)
 				)
 				(stroke
 					(width 0)
@@ -372,7 +360,7 @@
 			)
 			(polyline
 				(pts
-					(xy -0.762 3.048) (xy -0.762 5.08) (xy 0 5.08)
+					(xy 2.032 1.27) (xy 5.588 1.27)
 				)
 				(stroke
 					(width 0)
@@ -393,58 +381,16 @@
 					(type none)
 				)
 			)
-			(pin output line
-				(at 10.16 1.27 180)
-				(length 2.54)
-				(name "D"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
+			(polyline
+				(pts
+					(xy 3.302 -1.27) (xy 5.588 -1.27)
 				)
-				(number "10"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
+				(stroke
+					(width 0)
+					(type default)
 				)
-			)
-			(pin output line
-				(at 10.16 -1.27 180)
-				(length 2.54)
-				(name "C"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "11"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at 10.16 -5.08 180)
-				(length 2.54)
-				(name "SLEW_C"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "12"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
+				(fill
+					(type none)
 				)
 			)
 			(pin input line
@@ -501,6 +447,60 @@
 					)
 				)
 			)
+			(pin output line
+				(at 10.16 1.27 180)
+				(length 2.54)
+				(name "D"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 10.16 -1.27 180)
+				(length 2.54)
+				(name "C"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 10.16 -5.08 180)
+				(length 2.54)
+				(name "SLEW_C"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 		)
 		(symbol "Am26LS30-MODE0_3_1"
 			(rectangle
@@ -512,24 +512,6 @@
 				)
 				(fill
 					(type background)
-				)
-			)
-			(pin power_in line
-				(at 0 11.43 270)
-				(length 2.54)
-				(name "VCC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
 				)
 			)
 			(pin input line
@@ -569,6 +551,24 @@
 				)
 			)
 			(pin power_in line
+				(at 0 11.43 270)
+				(length 2.54)
+				(name "VCC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
 				(at 2.54 -11.43 90)
 				(length 2.54)
 				(name "VEE"
@@ -587,6 +587,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "MC1488"
 		(pin_names
@@ -666,9 +667,9 @@
 		)
 		(symbol "MC1488_1_1"
 			(arc
-				(start 0 -3.81)
+				(start 0 3.81)
 				(mid 3.7934 0)
-				(end 0 3.81)
+				(end 0 -3.81)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -728,9 +729,9 @@
 		)
 		(symbol "MC1488_2_1"
 			(arc
-				(start 0 -3.81)
+				(start 0 3.81)
 				(mid 3.7934 0)
-				(end 0 3.81)
+				(end 0 -3.81)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -808,9 +809,9 @@
 		)
 		(symbol "MC1488_3_1"
 			(arc
-				(start 0 -3.81)
+				(start 0 3.81)
 				(mid 3.7934 0)
-				(end 0 3.81)
+				(end 0 -3.81)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -849,24 +850,6 @@
 					)
 				)
 			)
-			(pin output inverted
-				(at 7.62 0 180)
-				(length 3.81)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "8"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin input line
 				(at -7.62 -2.54 0)
 				(length 3.81)
@@ -885,12 +868,30 @@
 					)
 				)
 			)
+			(pin output inverted
+				(at 7.62 0 180)
+				(length 3.81)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 		)
 		(symbol "MC1488_4_1"
 			(arc
-				(start 0 -3.81)
+				(start 0 3.81)
 				(mid 3.7934 0)
-				(end 0 3.81)
+				(end 0 -3.81)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -911,8 +912,8 @@
 					(type background)
 				)
 			)
-			(pin output inverted
-				(at 7.62 0 180)
+			(pin input line
+				(at -7.62 2.54 0)
 				(length 3.81)
 				(name "~"
 					(effects
@@ -921,7 +922,7 @@
 						)
 					)
 				)
-				(number "11"
+				(number "13"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -947,8 +948,8 @@
 					)
 				)
 			)
-			(pin input line
-				(at -7.62 2.54 0)
+			(pin output inverted
+				(at 7.62 0 180)
 				(length 3.81)
 				(name "~"
 					(effects
@@ -957,7 +958,7 @@
 						)
 					)
 				)
-				(number "13"
+				(number "11"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1035,6 +1036,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "MC1489"
 		(pin_names
@@ -1114,9 +1116,9 @@
 		)
 		(symbol "MC1489_1_1"
 			(arc
-				(start 0 -3.81)
+				(start 0 3.81)
 				(mid 3.7934 0)
-				(end 0 3.81)
+				(end 0 -3.81)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -1194,9 +1196,9 @@
 		)
 		(symbol "MC1489_2_1"
 			(arc
-				(start 0 -3.81)
+				(start 0 3.81)
 				(mid 3.7934 0)
-				(end 0 3.81)
+				(end 0 -3.81)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -1274,9 +1276,9 @@
 		)
 		(symbol "MC1489_3_1"
 			(arc
-				(start 0 -3.81)
+				(start 0 3.81)
 				(mid 3.7934 0)
-				(end 0 3.81)
+				(end 0 -3.81)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -1315,24 +1317,6 @@
 					)
 				)
 			)
-			(pin output inverted
-				(at 7.62 0 180)
-				(length 3.81)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "8"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin input line
 				(at 0 6.35 270)
 				(length 2.54)
@@ -1351,12 +1335,30 @@
 					)
 				)
 			)
+			(pin output inverted
+				(at 7.62 0 180)
+				(length 3.81)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 		)
 		(symbol "MC1489_4_1"
 			(arc
-				(start 0 -3.81)
+				(start 0 3.81)
 				(mid 3.7934 0)
-				(end 0 3.81)
+				(end 0 -3.81)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -1377,8 +1379,8 @@
 					(type background)
 				)
 			)
-			(pin output inverted
-				(at 7.62 0 180)
+			(pin input line
+				(at -7.62 0 0)
 				(length 3.81)
 				(name "~"
 					(effects
@@ -1387,7 +1389,7 @@
 						)
 					)
 				)
-				(number "11"
+				(number "13"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1413,8 +1415,8 @@
 					)
 				)
 			)
-			(pin input line
-				(at -7.62 0 0)
+			(pin output inverted
+				(at 7.62 0 180)
 				(length 3.81)
 				(name "~"
 					(effects
@@ -1423,7 +1425,7 @@
 						)
 					)
 				)
-				(number "13"
+				(number "11"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1483,5 +1485,6 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 )
